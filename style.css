@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+  .converter-body {
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 2px 1px #cacaca;
+  }
+  .converter-title {
+    text-align: center;
+    margin: 13px 0px;
+    font-size: 40px;
+  }
+  input {
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+  }
+  #input {
+    margin-left: 25px;
+  }
+  #inputType,
+  #resultType {
+    width: 165.66px;
+    height: 30px;
+    margin-left: 29px;
+    color: rgb(80, 5, 110);
+    font-size: 18px;
+    background-color: rgb(144, 217, 190);
+    border: none;
+  }
+  #resultType {
+    margin-left: 12.5px;
+  }
+  
